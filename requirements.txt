@@ -14,7 +14,7 @@ distro==1.3.0
 distro-info===0.21ubuntu4
 entrypoints==0.3
 hidpidaemon==18.4.5
-httplib2==0.11.3
+httplib2==0.18.0
 idna==2.6
 kernelstub==3.1.4
 keyring==18.0.1
