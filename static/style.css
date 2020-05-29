@@ -5,8 +5,9 @@
 }
 
 body {
-	background: #284753;
+	background: white;
 	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 25px;
 	color: #333;
 	line-height: 1.6;
 }
@@ -22,21 +23,19 @@ nav li {
 }
 
 
-
-
-
-/* landing page grid images */
+/* landing page image grid  */
 
 .imggrid {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	grid-gap: 1px;
+	grid-gap: 3px;
 	background-color: white;
+	padding-bottom: 20px;
 }
 
 .imggrid > div {
 	height: 150px;
-	background-attachment: fixed, scroll;
+	background-attachment: fixed;
 }
 
 
@@ -54,7 +53,7 @@ nav li {
 
 
 .bg1 {
-	background: url('../static/floatingcranes.jpg');
+	background: left url('../static/floatingcranes.jpg');
 	background-size: cover;
 	background-position: right;
 }
@@ -62,6 +61,10 @@ nav li {
 .bg2 {
 	background: url('../static/bigcranecar.jpg');
 	background-size: cover;
-	background-position: right;
+	background-position: 55% 45%;
+}
+
+ul.collection, ul.collection li.collection-item {
+	border: none;
 }
 
