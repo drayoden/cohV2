@@ -36,12 +36,9 @@ nav li {
 	background-color: #f8bbd0 !important;
 }
 
-
-
-ul.collection li{
-	background-color: #FFE8E2;
+.sidenav .user-view {
+	height: 200px;
 }
-
 
 /* landing page image grid  */
 
@@ -86,6 +83,8 @@ ul.collection li{
 
 ul.collection, ul.collection li.collection-item {
 	border: none;
+	background-color: #FFE8E2;
+	font-weight: bolder;
 }
 
 
