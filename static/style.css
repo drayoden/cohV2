@@ -5,7 +5,7 @@
 }
 
 body {
-	background: rgb(224, 221, 171);
+	background: #FFE8E2;
 	font-family: Roboto, Helvetica, sans-serif;
 	font-size: 25px;
 	color: rgb(9, 7, 114);
@@ -26,6 +26,22 @@ nav li {
 .slider.friends {
 	margin-top: 50px;
 }
+
+/* slider indicator dots colors */
+.slider li.indicator-item.active {
+	background-color: #ad1457 !important;
+}
+
+.slider li.indicator-item {
+	background-color: #f8bbd0 !important;
+}
+
+
+
+ul.collection li{
+	background-color: #FFE8E2;
+}
+
 
 /* landing page image grid  */
 
