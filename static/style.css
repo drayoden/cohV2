@@ -5,10 +5,10 @@
 }
 
 body {
-	background: white;
+	background: rgb(224, 221, 171);
 	font-family: Roboto, Helvetica, sans-serif;
 	font-size: 25px;
-	color: #333;
+	color: rgb(9, 7, 114);
 	line-height: 1.6;
 }
 
@@ -23,14 +23,18 @@ nav li {
 }
 
 
+.slider.friends {
+	margin-top: 50px;
+}
+
 /* landing page image grid  */
 
 .imggrid {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	grid-gap: 3px;
-	background-color: white;
-	padding-bottom: 20px;
+	grid-gap: 2px;
+	background-color: black;
+	margin-bottom: 20px;
 }
 
 .imggrid > div {
@@ -68,6 +72,10 @@ ul.collection, ul.collection li.collection-item {
 	border: none;
 }
 
+
+
+
+/* logo */
 a.brand-logo {
 	padding-left: 20px;
 	padding-top: 5px;
@@ -78,3 +86,26 @@ a.brand-logo {
 	height: 50px;
 }
 
+/* mobile landing page image */
+.mobileland {
+	padding-top: 50px;
+}
+
+/* comments */
+
+.comment {
+	font-family: Roboto;
+}
+.info{
+	font-style: italic;
+	font-size: 15px;
+}
+
+.quote {
+	font-size: 17px;
+}
+
+footer {
+	font-size: 15px;
+	margin-top: 50px;
+}
